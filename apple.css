@@ -1,0 +1,709 @@
+body{
+    margin:0px;
+}
+
+.title{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.header{
+    width: 100%;
+    height: 43px;
+    background-color:rgba(255, 255, 255, .8);
+    backdrop-filter: saturate(180%) blur(20px);
+    position:sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.header a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight:530;
+    padding-left: 41px;
+    color: #212121;
+    font-family:  Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.sub-header{
+    width: 100%;
+    height: 37px;
+    background-color: #fff;
+    display: flex;
+    flex-direction:row;
+    align-items:last baseline;
+    justify-content:center;
+}
+.sub-header-line{
+    color: #424242;
+    text-decoration:none;
+    font-size: 14px;
+    font-family:  Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.line2{
+    font-size: 14px;
+    font-family:  Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-left: 5px;
+    color:#0071e3;;
+    cursor: pointer;
+}
+.line2:hover{
+    text-decoration: underline;
+}
+.line3{
+    font-size: 14px;
+    font-family:  Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding-left: 4px;
+    color:#0071e3;;
+}
+.box1{
+    width: 100%;
+    height: 590px;   
+    background-color: rgb(245, 245, 247);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.ss1{
+    width: 470px;
+    height: 450px;
+    padding-bottom: 10px;
+}
+.shop-button{
+    border-radius:30px ;
+    border: 1px solid #006EDB;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 17px;
+    color: #006EDB;
+    cursor: pointer;   
+}
+.shop-button:hover{
+    color: #fff;
+    background-color:#006EDB ;
+}
+.box2{
+    position:relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 570px;
+}
+.box2 img{
+    width: 100%;
+    height: 570px;
+}
+.b2-overlay1{
+    position:absolute;
+    bottom: 29%;
+    padding-left: 490px;
+}
+.b2-overlay1 a{
+    font-size:50px;
+    text-decoration: none;
+    font-weight: 550;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+    padding: 20px;
+}
+.b2-overlay2{
+    position: absolute;
+    bottom: 21%;
+    padding-left: 585px;
+}
+.b2-overlay2 a{
+    font-size:30px;
+    padding-left: 100px;
+    text-decoration: none;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+    padding-left: 25px;
+}
+.b2-overlay3{
+    position: absolute;
+    bottom: 10%;
+    padding-left: 680px;
+}
+.learn-more-button{
+    border-radius:30px ;
+    border: 1px solid #006EDB;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 17px;
+    color: #fff;
+    background-color: #006EDB;
+    margin-right: 10px;
+}
+.learn-more-button:hover{
+    background-color: #0a80f0;
+}
+
+.box3{
+    width: 100%;
+    height: 500px;
+    background-color:  rgb(245, 245, 247);
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.box3-line1{
+    padding-top: 100px;
+  font-size:55px;
+  text-decoration: none;
+  color: black;
+  font-weight: 550;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.box3-line2{
+    padding-top: 5px;
+  font-size:25px;
+  text-decoration: none;
+  color: black;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.button-container{
+    padding-top: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+}
+
+.ss3{
+    width: 100%;
+    height: 390px;
+
+}
+.box4{
+    position:relative;
+    float: left;
+    background-color: #fff;
+    width: 50%;
+    height: 600px;
+    margin-top: 74px;
+}
+.box4 img{
+    width: 97%;
+    height: 600px;
+    padding-left: 15px;
+    z-index: -1;
+}
+.b4-overlay1{
+    position:absolute;
+    top: 18%;
+    padding-left: 200px;
+}
+.b4-overlay1 a{
+    font-size:20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: black;
+    padding: 20px;
+}
+.b4-overlay2{
+    position: absolute;
+    top: 25%;
+    padding-left: 270px;
+    z-index: 1;
+}
+.learn-more-button-black{
+    border-radius:30px ;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-color: black;
+    margin-right: 10px;
+}
+.learn-more-button-black:hover{
+    background-color: #1c1b1b;
+}
+.b4-overlay3{
+    position: absolute;
+    top: 25%;
+    padding-left: 390px;
+}
+.buy-button-black{
+    border-radius:30px ;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    color:black;
+    background-color: transparent;
+    cursor: pointer;  
+}
+.buy-button-black:hover{
+    color: #fff;
+    background-color:black ;
+}
+.box5{
+    float: left;
+    background-color:#fafafc;
+    width:48%;
+    height:600px;
+    margin-top: 74px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.box5-line1{
+    font-size:40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.box5-line2{
+    font-size:22px;
+    text-decoration: none;
+    color: black;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.small-learn-more-button{
+    border-radius:30px ;
+    border: 1px solid #006EDB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-color:  #006EDB;
+    margin-right: 10px;
+}
+.small-learn-more-button:hover{
+    background-color: #0a80f0;
+}
+.small-buy-button{
+    border-radius:30px ;
+    border: 1px solid #006EDB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    color:#006EDB;
+    background-color: transparent;
+    cursor: pointer;  
+}
+.small-buy-button:hover{
+    color: #fff;
+    background-color:#006EDB ;
+}
+.ss5{
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 8px;
+}
+.box6{
+    position:relative;
+    float: left;
+    background-color: #fff;
+    width: 49%;
+    height: 600px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.box6 img{
+width: 99%;
+height: 600px;
+z-index: -1;
+}
+.b6-overlay1{
+    position:absolute;
+    top: 10%;
+    padding-left: 280px;
+}
+.b6-overlay1 a{
+    font-size:40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 550;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.b6-overlay2{
+    position:absolute;
+    top: 18%;
+    padding-left: 196px;
+}
+.b6-overlay2 a{
+    font-size:20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+}
+.b6-overlay3{
+    position:absolute;
+    top: 25%;
+    padding-left: 270px;
+    z-index: 1;
+}
+.b6-overlay4{
+    position:absolute;
+    top: 25%;
+    padding-left: 385px;
+}
+.box7{
+    float: left;
+    background-color: #fff;
+    width:50%;
+    height:600px;
+    margin-top: 15px;
+
+}
+.box7{
+    position:relative;
+    float: left;
+    background-color: #fff;
+    width:50%;
+    height:600px;
+    margin-top: 15px;
+}
+.box7 img{
+    width: 97%;
+    height: 600px;
+    padding-left: 5px;
+    z-index: -1;
+}
+.b7-overlay1{
+    position:absolute;
+    top: 10%;
+    padding-left: 230px;
+}
+.b7-overlay1 a{
+    font-size:40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 550;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.b7-overlay2{
+    position:absolute;
+    top: 18%;
+    padding-left: 200px;
+}
+.b7-overlay2 a{
+    font-size:20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+}
+.b7-overlay3{
+    position:absolute;
+    top: 25%;
+    padding-left: 270px;
+    z-index: 1;
+}
+.b7-overlay4{
+    position:absolute;
+    top: 25%;
+    padding-left: 385px;
+}
+.ss7{
+    width: 97%;
+    height: 600px;
+    padding-left: 5px;
+}
+.box8{
+    width: 48.5%;
+    height: 600px;
+    float: left;
+    background-color: rgb(245, 245, 247);
+    margin-left: 17px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ss8{
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.box9{
+    position:relative;
+    width: 49%;
+    float: left;
+    height: 600px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.box9 img{
+    width: 98%;
+    height: 600px;
+z-index: -1;
+}
+.b9-overlay1{
+    position:absolute;
+    top: 12%;
+    padding-left: 275px;
+}
+.b9-overlay2{
+    position:absolute;
+    top: 11%;
+    padding-left: 303px;
+}
+.box9-line1{
+    font-size:44px;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;   
+}
+.b9-overlay3{
+    position:absolute;
+    top: 20%;
+    padding-left: 235px;
+}
+.b9-overlay4{
+    position:absolute;
+    top: 27%;
+    padding-left: 300px;
+    z-index: 1;
+}
+.box10{
+    width: 100%;
+    height: 630px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.slider_container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+  }
+  .slider {
+    position: relative;
+    width: 400%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    animation: 15s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+    margin-left:200px ;
+    margin-right:200px ;
+  }
+  .slide {
+    position: relative;
+    min-width: 100%;
+    height: 100%;
+  }
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+  .slide .caption {
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    background: rgba(0, 0, 0, 0.348);
+    backdrop-filter: blur(10px);
+    padding: 1rem 5rem;
+    border-radius: 0 2rem 2rem 0;
+  }
+  
+  @keyframes sliding {
+    0% {
+      transform: translateX(-50%);
+    }
+    20% {
+      transform: translateX(-100%);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    45% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    70% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+    95% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  }
+.footer{
+    width: 100%;
+    height: 665px;
+    background-color:rgb(245, 245, 247);
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+
+}
+.sub-footer{
+    width: 60%;
+    height: 642px;
+    background-color: rgb(245, 245, 247);
+    padding-top: 10px;
+}
+.footer-line{
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.56);
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.footer-list1{
+    width: 20%;
+    height: 320px;
+    background-color:rgb(245, 245, 247); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+.footer-list-heading{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.footer-list-content{
+    font-size: 11px;
+    color: rgb(110, 110, 115);
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.footer-list-content:hover{
+    text-decoration: underline;
+}
+.footer-list2{
+    width: 20%;
+    height: 303px;
+    background-color:rgb(245, 245, 247); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+.footer-list3{
+    width: 20%;
+    height: 273px;
+    background-color:rgb(245, 245, 247); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+.footer-list4{
+    width: 20%;
+    height: 275px;
+    background-color:rgb(245, 245, 247); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+.footer-list5{
+    width: 20%;
+    height: 350px;
+    background-color:rgb(245, 245, 247); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+.new-footer-line{
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.56);
+    padding-bottom: 10px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;    
+}
+.new-footer-line2{
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.56);
+    padding-top: 10px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;    
+}
+.footer-ending{
+    width: 60%;
+    height: 100px;
+    background-color: rgb(245, 245, 247);
+    display: flex;
+    justify-content:center;
+}
+
+.footer-end-content{
+    font-size: 11px;
+    color: rgb(110, 110, 115);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.footer-end-content:hover{
+    text-decoration: underline;
+}
+.footer-end-line-1{
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.56);
+    padding-top: 10px;
+    padding-right: 62px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;    
+}
+.footer-end-line-2{
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.56);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 220px;
+    z-index: 0;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.footer-end-line-2:hover{
+    text-decoration: underline;
+}
